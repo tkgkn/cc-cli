@@ -1,0 +1,30 @@
+{
+  "name": "cc-cli",
+  "version": "0.0.1",
+  "description": "a cli",
+  "main": "index.js",
+  "bin": {
+    "cc": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/c690554125/cc-cli.git"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "author": "tkgkn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/c690554125/cc-cli/issues"
+  },
+  "homepage": "https://github.com/c690554125/cc-cli#readme",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "commander": "^5.0.0",
+    "inquirer": "^7.1.0"
+  }
+}
